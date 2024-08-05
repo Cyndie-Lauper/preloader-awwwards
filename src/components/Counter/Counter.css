@@ -1,0 +1,21 @@
+.counter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    height: var(--counter-height);
+    font-size: var(--counter-font-size);
+    line-height: calc(var(--counter-height) + 2px);
+    clip-path: polygon(0 0, 100% 0, 100% var(--counter-height), 0 var(--counter-height));
+    font-weight: 400;
+  }
+  
+  .counter-1, .counter-2, .counter-3 {
+    position: relative;
+    top: 0;
+  }
+  
+  .num1offset1, .num1offset2 {
+    position: relative;
+    right: -10px;
+  }
